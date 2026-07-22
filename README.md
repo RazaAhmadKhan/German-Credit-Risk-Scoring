@@ -1,4 +1,4 @@
-# CodeAlpha_CreditScoringModel 💳
+# Credit Scoring Model 💳
 
 **Machine Learning Internship — CodeAlpha | Task 1: Credit Scoring Model**
 
