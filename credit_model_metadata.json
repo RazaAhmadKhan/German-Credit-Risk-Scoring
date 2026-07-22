@@ -1,0 +1,155 @@
+{
+  "best_model_name": "Random Forest",
+  "numeric_features": [
+    "Duration",
+    "CreditAmount",
+    "InstallmentRate",
+    "ResidenceSince",
+    "Age",
+    "ExistingCredits",
+    "NumLiable"
+  ],
+  "categorical_features": [
+    "CheckingStatus",
+    "CreditHistory",
+    "Purpose",
+    "Savings",
+    "Employment",
+    "PersonalStatus",
+    "OtherDebtors",
+    "Property",
+    "OtherInstallmentPlans",
+    "Housing",
+    "Job",
+    "Telephone",
+    "ForeignWorker"
+  ],
+  "category_labels": {
+    "CheckingStatus": {
+      "A11": "< 0 DM (overdrawn)",
+      "A12": "0 to 200 DM",
+      "A13": ">= 200 DM",
+      "A14": "No checking account"
+    },
+    "CreditHistory": {
+      "A30": "No credits taken",
+      "A31": "All credits paid back duly (this bank)",
+      "A32": "Existing credits paid back duly till now",
+      "A33": "Delay in past payments",
+      "A34": "Critical account / other credits existing"
+    },
+    "Purpose": {
+      "A40": "New car",
+      "A41": "Used car",
+      "A42": "Furniture/equipment",
+      "A43": "Radio/television",
+      "A44": "Domestic appliances",
+      "A45": "Repairs",
+      "A46": "Education",
+      "A48": "Retraining",
+      "A49": "Business",
+      "A410": "Other"
+    },
+    "Savings": {
+      "A61": "< 100 DM",
+      "A62": "100 to 500 DM",
+      "A63": "500 to 1000 DM",
+      "A64": ">= 1000 DM",
+      "A65": "Unknown / no savings account"
+    },
+    "Employment": {
+      "A71": "Unemployed",
+      "A72": "< 1 year",
+      "A73": "1 to 4 years",
+      "A74": "4 to 7 years",
+      "A75": ">= 7 years"
+    },
+    "PersonalStatus": {
+      "A91": "Male: divorced/separated",
+      "A92": "Female: divorced/separated/married",
+      "A93": "Male: single",
+      "A94": "Male: married/widowed",
+      "A95": "Female: single"
+    },
+    "OtherDebtors": {
+      "A101": "None",
+      "A102": "Co-applicant",
+      "A103": "Guarantor"
+    },
+    "Property": {
+      "A121": "Real estate",
+      "A122": "Building society savings / life insurance",
+      "A123": "Car or other property",
+      "A124": "Unknown / no property"
+    },
+    "OtherInstallmentPlans": {
+      "A141": "Bank",
+      "A142": "Stores",
+      "A143": "None"
+    },
+    "Housing": {
+      "A151": "Rent",
+      "A152": "Own",
+      "A153": "For free"
+    },
+    "Job": {
+      "A171": "Unemployed / unskilled non-resident",
+      "A172": "Unskilled resident",
+      "A173": "Skilled employee / official",
+      "A174": "Management / self-employed / highly qualified"
+    },
+    "Telephone": {
+      "A191": "None",
+      "A192": "Registered under customer's name"
+    },
+    "ForeignWorker": {
+      "A201": "Yes",
+      "A202": "No"
+    }
+  },
+  "metrics": {
+    "Accuracy": 0.725,
+    "Precision": 0.8244274809160306,
+    "Recall": 0.7714285714285715,
+    "F1-Score": 0.7970479704797048,
+    "ROC-AUC": 0.7745238095238095,
+    "CV ROC-AUC": 0.7933035714285714
+  },
+  "numeric_ranges": {
+    "Duration": {
+      "min": 4.0,
+      "max": 72.0,
+      "median": 18.0
+    },
+    "CreditAmount": {
+      "min": 250.0,
+      "max": 18424.0,
+      "median": 2319.5
+    },
+    "InstallmentRate": {
+      "min": 1.0,
+      "max": 4.0,
+      "median": 3.0
+    },
+    "ResidenceSince": {
+      "min": 1.0,
+      "max": 4.0,
+      "median": 3.0
+    },
+    "Age": {
+      "min": 19.0,
+      "max": 75.0,
+      "median": 33.0
+    },
+    "ExistingCredits": {
+      "min": 1.0,
+      "max": 4.0,
+      "median": 1.0
+    },
+    "NumLiable": {
+      "min": 1.0,
+      "max": 2.0,
+      "median": 1.0
+    }
+  }
+}
